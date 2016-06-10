@@ -23,7 +23,6 @@ public class PopNotificationActivity extends Activity implements View.OnClickLis
     private CheckBox mAutoCancel;
 
     private View mBigTextStyleBtn;
-    private CheckBox mSlideDelete;
     private CheckBox mOngoing;
     private NotificationTransitBroadcast mNotificationTransitBroadcast;
     private View mBigImageStyleBtn;
@@ -51,7 +50,6 @@ public class PopNotificationActivity extends Activity implements View.OnClickLis
         mAutoCancel = (CheckBox) findViewById(R.id.auto_cancel);
         mAutoCancel.setChecked(true);
         mVibrate = (CheckBox) findViewById(R.id.vibrate);
-        //mSlideDelete = (CheckBox) findViewById(R.id.slide_delete);
         mOngoing = (CheckBox) findViewById(R.id.ongoing);
     }
 
@@ -77,6 +75,7 @@ public class PopNotificationActivity extends Activity implements View.OnClickLis
         builder.addAction(R.drawable.ic_content_copy_white_18dp, getText(R.string.common_copy), PendingIntent.getActivity(this, 0, EndActivity.getEntryIntent(this, ""), PendingIntent.FLAG_UPDATE_CURRENT));
         builder.addAction(R.drawable.ic_content_paste_white_18dp, getText(R.string.common_paste), PendingIntent.getActivity(this, 0, EndActivity.getEntryIntent(this, ""), PendingIntent.FLAG_UPDATE_CURRENT));
         builder.setVibrate(new long[]{500, mVibrate.isChecked() ? 500 : 0});
+
 
         if (mBigTextStyleBtn.equals(v)) {
             builder.setStyle(new Notification.BigTextStyle()

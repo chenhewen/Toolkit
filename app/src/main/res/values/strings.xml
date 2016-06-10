@@ -2,6 +2,7 @@
 
     <string name="common_copy">copy</string>
     <string name="common_paste">paste</string>
+    <string name="common_refresh">refresh</string>
 
     <string name="app_name">Toolkit</string>
     <string name="auto_cancel">auto cancel</string>
@@ -23,4 +24,6 @@
     <string name="click_first_button">Click BIG IMAGE STYLE first</string>
 
     <string name="end_activity_tips">YOU FINALLY GOT ME!</string>
+
+    <string name="refresh_activity_tip">The child of SwipeRefreshLayout can ONLY HAS ONE DIRECT CHILD, and MUST BE SCROLLABLE</string>
 </resources>

@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="tell_load_from_values_file_dir">100dp</dimen>
+</resources>
