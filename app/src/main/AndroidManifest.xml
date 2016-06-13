@@ -16,6 +16,15 @@
         </activity>
 
         <!--<activity android:name=".PopNotificationActivity">
+        <activity android:name=".RefreshActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+        </activity>
+
+        <!--<activity android:name=".PopNotificationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
