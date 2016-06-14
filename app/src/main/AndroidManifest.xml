@@ -22,6 +22,10 @@
             android:name=".EndActivity"
             android:exported="true"/>
 
+        <activity
+            android:name=".SystemInfoActivity"
+            android:exported="true"/>
+
         <service
             android:name="com.robust.toolkit.MyNotificationListener"
             android:label="@string/app_name"
