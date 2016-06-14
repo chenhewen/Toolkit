@@ -1,15 +1,19 @@
 package com.robust.toolkit;
 
+import android.Manifest;
 import android.app.Activity;
-import android.app.ActivityManager;
 import android.content.Context;
-import android.graphics.Point;
-import android.graphics.PointF;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
+import android.telephony.TelephonyManager;
 
 import com.orhanobut.logger.Logger;
-import com.robust.toolkit.utils.HardwareUtil;
-import com.robust.toolkit.utils.ScreenUtil;
+import com.robust.toolkit.utils.DeviceUtil;
+import com.robust.toolkit.utils.HardwareUsageUtil;
+
+import java.util.Locale;
 
 /**
  * Created by chenhewen on 16-6-7.
@@ -21,12 +25,6 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        float memoryUsed = HardwareUtil.getMemoryUsed(this);
-        float memoryTotal = HardwareUtil.getMemoryTotal(this);
-        Logger.t(TAG).d("memoryUsed = %.2f GB, memoryTotal = %.2f GB", memoryUsed, memoryTotal);
-
-        float storageUsed = HardwareUtil.getStorageUsed();
-        float storageTotal = HardwareUtil.getStorageTotal();
-        Logger.t(TAG).d("storageUsed = %.2f GB, storageTotal = %.2f GB", storageUsed, storageTotal);
+        Logger.t(TAG).d("boot time = %s", HardwareUsageUtil.getMillisSinceBoot());
     }
 }

@@ -4,6 +4,7 @@ import android.app.ActivityManager;
 import android.content.Context;
 import android.os.Environment;
 import android.os.StatFs;
+import android.os.SystemClock;
 
 import com.robust.toolkit.UnitConstant;
 
@@ -11,7 +12,7 @@ import com.robust.toolkit.UnitConstant;
  * 硬件相关辅助类
  * Created by chenhewen on 16-6-14.
  */
-public class HardwareUtil {
+public class HardwareUsageUtil {
 
     /**
      * 获取MemoryInfo
@@ -73,4 +74,10 @@ public class HardwareUtil {
         long freeBytes = storageStat.getFreeBytes();
         return (totalBytes - freeBytes) * 1.0f / UnitConstant.GB;
     }
+
+    public static long getMillisSinceBoot() {
+        return SystemClock.elapsedRealtime();
+    }
+
+    //TODO: CPU(可以指定应用程序), 电池(电量, 温度, 电压)
 }

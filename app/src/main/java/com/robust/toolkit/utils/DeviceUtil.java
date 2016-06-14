@@ -81,7 +81,4 @@ public class DeviceUtil {
         return sb.toString();
     }
 
-    //TODO：内存，存储空间， CPU
-
-
 }
