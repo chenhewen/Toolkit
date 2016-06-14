@@ -12,6 +12,7 @@ import android.telephony.TelephonyManager;
 import com.orhanobut.logger.Logger;
 import com.robust.toolkit.utils.DeviceUtil;
 import com.robust.toolkit.utils.HardwareUsageUtil;
+import com.robust.toolkit.utils.TimeUtil;
 
 import java.util.Locale;
 
@@ -25,6 +26,6 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Logger.t(TAG).d("boot time = %s", HardwareUsageUtil.getMillisSinceBoot());
+        Logger.t(TAG).d("boot time = %s", TimeUtil.getDisplayDuration(HardwareUsageUtil.getMillisSinceBoot()));
     }
 }

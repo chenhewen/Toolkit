@@ -9,6 +9,11 @@ import android.telephony.TelephonyManager;
  */
 public class SimUtil {
 
+    /**
+     * 获取电话号码
+     * @param context context
+     * @return string
+     */
     public static String getPhoneNumber(Context context) {
         TelephonyManager tm = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
         return tm.getLine1Number();
