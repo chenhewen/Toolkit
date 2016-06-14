@@ -69,7 +69,8 @@ public class HardwareUtil {
      */
     public static float getStorageUsed() {
         StatFs storageStat = getStorageStat();
+        long totalBytes = storageStat.getTotalBytes();
         long freeBytes = storageStat.getFreeBytes();
-        return freeBytes * 1.0f / UnitConstant.GB;
+        return (totalBytes - freeBytes) * 1.0f / UnitConstant.GB;
     }
 }
