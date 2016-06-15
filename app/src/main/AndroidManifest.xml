@@ -1,8 +1,10 @@
 <manifest package="com.robust.toolkit"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!--读手机号码-->
+    <!--TelephoneManager.getLine1Number, 读手机号码-->
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--WifiManager.getConnectedInfo, 获取Wifi连接名称等-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
     <application
         android:name=".ToolkitApplication"
