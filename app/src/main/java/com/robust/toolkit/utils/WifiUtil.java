@@ -53,6 +53,11 @@ public class WifiUtil {
         return wifiInfo.getRssi();
     }
 
+    /**
+     * 获取IPV4
+     * @param context
+     * @return
+     */
     public static String getIpV4(Context context) {
         WifiInfo wifiInfo = getWifiInfo(context);
         return Formatter.formatIpAddress(wifiInfo.getIpAddress());

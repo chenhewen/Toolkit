@@ -6,6 +6,12 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@android:color/holo_red_light</item>
+        <item name="android:navigationBarColor">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="BigFontStyle">
+        <item name="android:textSize">50sp</item>
     </style>
 
 </resources>

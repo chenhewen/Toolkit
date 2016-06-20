@@ -1,3 +1,8 @@
 <resources>
     <dimen name="tell_load_from_values_file_dir">1dp</dimen>
+
+    <dimen name="design_list_item_height">72dp</dimen>
+    <dimen name="design_list_item_left_right_margin">16dp</dimen>
+    <dimen name="design_list_item_image_width">40dp</dimen>
+    <dimen name="design_list_item_title_left_margin">72dp</dimen>
 </resources>
