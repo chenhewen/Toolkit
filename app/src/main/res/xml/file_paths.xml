@@ -8,4 +8,7 @@
 
     <!--name whatever you like, here should be a qualified path and it is sub dir of Environment.getExternalStorageDirectory()-->
     <external-path name="external_images" path="com.robust.toolkit/images/"/>
+    <external-path name="my_images" path="Android/data/com.robust.toolkit/files/Pictures/" />
+    <external-path name="my_images2" path="Pictures" />
+
 </paths>
