@@ -7,6 +7,8 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <!--File.mkdirs, 读取存储空间权限 -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--互联网请求, WebView-->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <!--使用相机照相-->
     <uses-feature android:name="android.hardware.camera" android:required="true" />
 
@@ -73,12 +75,21 @@
         <activity android:name=".CameraActivity">
         </activity>
         <activity android:name=".VideoActivity">
+
+        </activity>
+        <activity android:name=".PhonePathActivity">
+
+        </activity>
+        <activity android:name=".PrintImageActivity">
+
+        </activity>
+        <activity android:name=".PrintHtmlActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".PhonePathActivity">
+        <activity android:name=".ComparatorWithValueNullActivity">
 
         </activity>
         <service
