@@ -11,7 +11,8 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <!--使用相机照相-->
     <uses-feature android:name="android.hardware.camera" android:required="true" />
-
+    <!-- WindowManager#addView -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <application
         android:name=".ToolkitApplication"
         android:allowBackup="true"
@@ -84,13 +85,18 @@
 
         </activity>
         <activity android:name=".PrintHtmlActivity">
+
+        </activity>
+        <activity android:name=".ComparatorWithValueNullActivity">
+
+        </activity>
+        <activity android:name=".ViewMeasureActivity">
+        </activity>
+        <activity android:name=".ViewRootActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-        <activity android:name=".ComparatorWithValueNullActivity">
-
         </activity>
         <service
             android:name="com.robust.toolkit.MyNotificationListener"
