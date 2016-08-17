@@ -93,6 +93,9 @@
         <activity android:name=".ViewMeasureActivity">
         </activity>
         <activity android:name=".ViewRootActivity">
+
+        </activity>
+        <activity android:name=".DialogButtonLayoutActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
