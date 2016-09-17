@@ -15,7 +15,10 @@
     <string name="content_big_title">this is default big title</string>
     <string name="context_text">this is default content text</string>
     <string name="sub_text">this is default sub text</string>
-    <string name="long_text">this is a very very very very very very very very very long text, I think it is long enough to bother you. but I meat to show you something new. This is BigTextStyle. Big text, um...</string>
+    <string name="long_text">this is a very very very very very very very very very long text, I
+        think it is long enough to bother you. but I meat to show you something new. This is
+        BigTextStyle. Big text, um...
+    </string>
     <string name="pop_big_image_notification">Big Image Style</string>
     <string name="pop_big_text_notification">Big Text Style</string>
     <string name="pop_in_box_notification">In Box Style</string>
@@ -25,5 +28,7 @@
 
     <string name="end_activity_tips">YOU FINALLY GOT ME!</string>
 
-    <string name="refresh_activity_tip">The child of SwipeRefreshLayout can ONLY HAS ONE DIRECT CHILD, and MUST BE SCROLLABLE</string>
+    <string name="refresh_activity_tip">The child of SwipeRefreshLayout can ONLY HAS ONE DIRECT
+        CHILD, and MUST BE SCROLLABLE
+    </string>
 </resources>

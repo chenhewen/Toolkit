@@ -1,12 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest package="com.robust.toolkit"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!--TelephoneManager.getLine1Number, 读手机号码-->
+    <!-- TelephoneManager.getLine1Number, 读手机号码 -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-    <!--WifiManager.getConnectedInfo, 获取Wifi连接名称等-->
+    <!-- WifiManager.getConnectedInfo, 获取Wifi连接名称等 -->
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <!--File.mkdirs, 读取存储空间权限 -->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- File.mkdirs, 读取存储空间权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:name=".ToolkitApplication"
@@ -15,61 +16,65 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!--<activity
+
+        <!--
+        <activity
             android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>-->
+        </activity>
+        -->
 
-       <!-- <activity
+
+        <!--
+        <activity
             android:name=".RecyclerViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>-->
+        </activity>
+        -->
 
-        <activity android:name=".PopNotificationActivity" />
-        <activity android:name=".RefreshActivity" />
-
+        <activity android:name=".PopNotificationActivity"/>
+        <activity android:name=".RefreshActivity"/>
         <activity
             android:name=".EndActivity"
             android:exported="true"/>
-
-        <activity
-            android:name=".SystemInfoActivity"/>
-
-        <activity
-            android:name=".FileProviderActivity">
+        <activity android:name=".SystemInfoActivity"/>
+        <activity android:name=".FileProviderActivity">
         </activity>
-
         <activity
             android:name=".ActionBarActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-        >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar">
 
+        </activity>
         <activity
             android:name=".ExternalImageSelectActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.PICK"/>
+
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.OPENABLE"/>
+
                 <data android:mimeType="text/plain"/>
                 <data android:mimeType="image/*"/>
             </intent-filter>
         </activity>
 
+        <activity android:name=".NinePatchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
         <service
-            android:name="com.robust.toolkit.MyNotificationListener"
+            android:name=".MyNotificationListener"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
@@ -84,7 +89,7 @@
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths" />
+                android:resource="@xml/file_paths"/>
         </provider>
 
     </application>

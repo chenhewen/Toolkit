@@ -1,3 +1,4 @@
+/*
 package com.robust.toolkit;
 
 import android.app.Activity;
@@ -16,3 +17,4 @@ public class MainActivity extends Activity {
         mCardView = (CardView) findViewById(R.id.card_view);
     }
 }
+*/
