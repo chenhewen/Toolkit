@@ -1,4 +1,3 @@
-/*
 package com.robust.toolkit;
 
 import android.app.Activity;
@@ -6,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
+
+import com.robust.toolkit.activity.ActionBarActivity;
 
 public class MainActivity extends Activity {
 
@@ -26,4 +27,3 @@ public class MainActivity extends Activity {
         });
     }
 }
-*/

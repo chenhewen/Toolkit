@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.robust.toolkit.MainActivity;
 import com.robust.toolkit.R;
 
 /**

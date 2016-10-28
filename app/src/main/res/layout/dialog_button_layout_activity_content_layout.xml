@@ -16,6 +16,4 @@
 
     />
 
-    <com.robust.toolkit.view.CpuCoolBubbleObj android:layout_width="wrap_content"
-                                              android:layout_height="wrap_content"/>
 </com.robust.toolkit.view.DialogButtonLayout>
