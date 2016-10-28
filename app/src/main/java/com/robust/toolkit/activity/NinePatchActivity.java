@@ -1,4 +1,4 @@
-package com.robust.toolkit;
+package com.robust.toolkit.activity;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.robust.toolkit.R;
 
 public class NinePatchActivity extends Activity {
 

@@ -1,9 +1,11 @@
-package com.robust.toolkit;
+package com.robust.toolkit.activity;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.robust.toolkit.R;
 
 /**
  * Created by chenhewen on 16-6-8.

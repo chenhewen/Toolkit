@@ -1,4 +1,4 @@
-package com.robust.toolkit;
+package com.robust.toolkit.activity;
 
 import android.animation.TimeInterpolator;
 import android.app.Activity;
@@ -10,6 +10,7 @@ import android.view.animation.LayoutAnimationController;
 import android.view.animation.ScaleAnimation;
 
 import com.orhanobut.logger.Logger;
+import com.robust.toolkit.R;
 
 /**
  * Created by chenhewen on 16-7-11.

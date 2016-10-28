@@ -1,4 +1,4 @@
-package com.robust.toolkit;
+package com.robust.toolkit.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.orhanobut.logger.Logger;
+import com.robust.toolkit.R;
 
 import java.io.File;
 

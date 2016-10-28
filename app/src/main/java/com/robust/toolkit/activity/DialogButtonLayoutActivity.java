@@ -1,7 +1,9 @@
-package com.robust.toolkit;
+package com.robust.toolkit.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import com.robust.toolkit.R;
 
 /**
  * Created by chenhewen on 16-8-3.

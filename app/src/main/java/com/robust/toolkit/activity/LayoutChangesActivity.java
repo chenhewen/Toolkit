@@ -1,4 +1,4 @@
-package com.robust.toolkit;
+package com.robust.toolkit.activity;
 
 import android.animation.Animator;
 import android.animation.LayoutTransition;
@@ -13,6 +13,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.robust.toolkit.R;
 
 /**
  * This sample demonstrates how to use system-provided, automatic layout transitions. Layout

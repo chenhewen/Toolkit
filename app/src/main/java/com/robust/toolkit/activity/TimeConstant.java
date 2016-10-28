@@ -1,4 +1,4 @@
-package com.robust.toolkit;
+package com.robust.toolkit.activity;
 
 /**
  * Created by chenhewen on 16-6-14.

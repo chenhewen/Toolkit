@@ -1,4 +1,4 @@
-package com.robust.toolkit;
+package com.robust.toolkit.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import android.support.v4.content.FileProvider;
 import android.widget.ImageView;
 
 import com.orhanobut.logger.Logger;
+import com.robust.toolkit.R;
 
 import java.io.File;
 import java.io.IOException;

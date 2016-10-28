@@ -1,4 +1,4 @@
-package com.robust.toolkit;
+package com.robust.toolkit.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,6 +10,8 @@ import android.print.PrintManager;
 import android.util.Log;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.robust.toolkit.R;
 
 /**
  * Created by chenhewen on 16-7-19.

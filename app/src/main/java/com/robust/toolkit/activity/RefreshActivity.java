@@ -1,10 +1,12 @@
-package com.robust.toolkit;
+package com.robust.toolkit.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.widget.Toast;
+
+import com.robust.toolkit.R;
 
 /**
  * Created by chenhewen on 16-6-10.

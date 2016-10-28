@@ -1,10 +1,12 @@
-package com.robust.toolkit;
+package com.robust.toolkit.activity;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v4.print.PrintHelper;
+
+import com.robust.toolkit.R;
 
 /**
  * Created by chenhewen on 16-7-19.

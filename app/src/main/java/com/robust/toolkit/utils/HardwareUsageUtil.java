@@ -6,7 +6,7 @@ import android.os.Environment;
 import android.os.StatFs;
 import android.os.SystemClock;
 
-import com.robust.toolkit.UnitConstant;
+import com.robust.toolkit.activity.UnitConstant;
 
 /**
  * 硬件相关辅助类

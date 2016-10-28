@@ -1,8 +1,6 @@
 package com.robust.toolkit.view;
 
-import android.app.AlarmManager;
 import android.content.Context;
-import android.location.LocationManager;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
